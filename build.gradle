@@ -235,6 +235,11 @@ dependencies {
     implementation "org.zalando:problem-spring-web"
     implementation "org.springframework.security:spring-security-config"
 
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    implementation group: 'com.google.guava', name: 'guava', version: '11.0.2'
+
     implementation "org.springframework.security:spring-security-data"
     implementation "org.springframework.security:spring-security-web"
     implementation ("io.springfox:springfox-oas")
